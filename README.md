@@ -4,7 +4,7 @@
 
 This is a code to map elements in page it will trigger some goal previously configured in Google Analytics.
 
-How to use step by step
+###How to use step by step
 
 1 - Put in your page the GA tracking code
 
@@ -28,14 +28,16 @@ How to use step by step
 
 -----------------
 
-Documentation from data options
+###Documentation from data options
 
 data-event       = the event will trigger the G.A goal  
+
 data-description = description trigger in console meessage when the event was triggered
 data-definition  = object contains the config goal previously config in Analytics, it's necessessary use notation JSON or the code will trigger error in console
+
 data-function    = if you trigger the goal if some condition was satisfied (must return true to trigger G.A Goal), you can use use this option, like data-function="scrollArriveAtEndOfPage"
 
-FAQ
+###FAQ
 
 1 - How to map many events in same element ? Answer : You can use in the data-definition array notation with objects
 	
